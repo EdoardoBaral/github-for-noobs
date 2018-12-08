@@ -3,6 +3,7 @@ public class Persona
     private String nome;
     private String cognome;
     private int eta;
+    private String professione;
 
     public Persona()
     { }
@@ -43,9 +44,19 @@ public class Persona
         this.eta = eta;
     }
 
+    public String getProfessione()
+    {
+        return professione;
+    }
+
+    public void setProfessione(String professione)
+    {
+        this.professione = professione;
+    }
+
     @Override
     public String toString()
     {
-        return "Persona {nome: "+ nome +", cognome: "+ cognome +", eta: "+ eta +"}";
+        return "Persona {nome: "+ nome +", cognome: "+ cognome +", eta: "+ eta +", professione: "+ professione +"}";
     }
 }
