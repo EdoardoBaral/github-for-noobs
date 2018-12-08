@@ -6,7 +6,6 @@ public class Main
         p.setNome("Edoardo");
         p.setCognome("Baral");
         p.setEta(27);
-        p.setProfessione("Sviluppatore Java");
 
         System.out.println(p.toString());
     }
